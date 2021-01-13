@@ -1,0 +1,57 @@
+.category-box {
+    width: 20%;
+    height: 400px;
+}
+
+.category-card {
+    width: 100%;
+}
+
+.card-text-size {
+    height: 120px;
+}
+
+.img-card-top-size {
+    min-height: 100%;
+}
+
+.yellow {
+    color: #f7cf49;
+}
+
+.card-text-sec-hot {
+    height: 60px;
+}
+
+.action {
+    background-image: url(../img/kids.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.name-box {
+    background-color: #f7cf49;
+}
+
+.title-category-img-box {
+    color: red;
+
+}
+
+
+.category-img {
+    height: 200px;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.h-120 {
+    height: 120px;
+}
