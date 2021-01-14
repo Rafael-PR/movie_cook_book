@@ -7,7 +7,6 @@
     width: 100%;
 }
 
-
 .img-card-top-size {
     min-height: 100%;
 }
@@ -27,15 +26,10 @@
     height: 200px;
 }
 
-.name-box {
-    background-color: #f7cf49;
+.title-box {
+    background-color: #199638;
+    color: white;
 }
-
-.title-category-img-box {
-    color: red;
-
-}
-
 
 .category-img {
     height: 200px;
@@ -51,4 +45,33 @@
 
 .h-120 {
     height: 120px;
+}
+
+.recipe-box {
+    text-decoration: none;
+    color: black;
+}
+
+/*PAGINATION*/
+
+.pagination>li>a {
+    background-color: white;
+    color: #5A4181;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination>.active>a {
+    color: white;
+    background-color: #5A4181 !Important;
+    border: solid 1px #5A4181 !Important;
+}
+
+.pagination>.active>a:hover {
+    background-color: #5A4181 !Important;
+    border: solid 1px #5A4181;
 }
