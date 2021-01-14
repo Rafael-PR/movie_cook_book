@@ -12,8 +12,14 @@
 }
 
 .yellow {
-    color: #f7cf49;
+    color: #f7c520;
 }
+
+
+.grey {
+    color: #aea999a6;
+}
+
 
 .card-text-sec-hot {
     height: 60px;
@@ -67,11 +73,11 @@
 
 .pagination>.active>a {
     color: white;
-    background-color: #5A4181 !Important;
-    border: solid 1px #5A4181 !Important;
+    background-color: #cab01d !Important;
+    border: solid 1px #cab01d !Important;
 }
 
 .pagination>.active>a:hover {
-    background-color: #5A4181 !Important;
-    border: solid 1px #5A4181;
+    background-color: #cab01d !Important;
+    border: solid 1px #cab01d;
 }
