@@ -1,0 +1,131 @@
+*{
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Monoton&display=swap');
+
+
+
+.heading_no1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 80px;
+    color: white;
+    background:(255,255,255,0.5);
+    
+  
+}
+
+
+.banner{
+    background-image:  Url(../img/banner_4.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.searchbar{
+    display: flex;
+    max-width: 600px;
+    opacity: 0.5;
+    align-self: center;
+    height: 80px;
+    
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.container-border{
+    height: 800px;
+}
+.color-font{
+    color:red;
+}
+
+.row-border{
+    border: blue;
+}
+
+.row-border2{
+    background-color: darkblue;
+}
+
+.container-border{
+    background-color: darkkhaki;
+}
+
+.col-background{
+    background-color: darkorange;
+    height: 600px;
+}
+
+.col-background1{
+    background-color: deeppink;
+    height: 600px;
+}
+
+.col-background2{
+    background-color: darkviolet;
+    height: 200px;
+}
+.col-background_center{
+    background-color: gainsboro;
+    padding: 40px;
+   
+}
+
+/* .context{
+    background-color: greenyellow;
+    height: 400px;
+    padding: 10px;
+} */
+
+.col-background_center_bottom{
+    background-color: indianred;
+    height: 100px;
+}
+
+/*new*/
+
+.bg_1{
+    background-color: ;
+    height: 800px;
+}
+.bg_2{
+    
+    height: 300px;
+    width: 300px;
+}
+
+.row-top{
+    background-color: gold;
+}
+
+.col-instruction-bg{
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.ingredients{
+    align-self: center;
+}
+
+.servings{
+    display: flex;
+    align-self: flex-end;
+}
