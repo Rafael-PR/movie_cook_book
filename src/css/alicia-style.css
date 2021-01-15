@@ -1,3 +1,9 @@
+* {
+    color: rgb(94, 98, 102);
+    padding: 0;
+    margin: 0;
+}
+
 .category-box {
     width: 20%;
     height: 400px;
@@ -7,16 +13,16 @@
     width: 100%;
 }
 
-.card-text-size {
-    height: 120px;
-}
-
 .img-card-top-size {
     min-height: 100%;
 }
 
 .yellow {
-    color: #f7cf49;
+    color: #ff5e39;
+}
+
+.grey {
+    color: #aea999a6;
 }
 
 .card-text-sec-hot {
@@ -30,15 +36,10 @@
     height: 200px;
 }
 
-.name-box {
-    background-color: #f7cf49;
+.title-box {
+    background-color: #199638;
+    color: white;
 }
-
-.title-category-img-box {
-    color: red;
-
-}
-
 
 .category-img {
     height: 200px;
@@ -54,4 +55,148 @@
 
 .h-120 {
     height: 120px;
+}
+
+.recipe-box {
+    text-decoration: none;
+    color: black;
+}
+
+/*PAGINATION*/
+
+.pagination>li>a {
+    background-color: white;
+    color: #ff5731;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination>.active>a {
+    color: white;
+    background-color: #FF785B !Important;
+    border: solid 1px #FF785B !Important;
+}
+
+.pagination>.active>a:hover {
+    background-color: #ff5731 !Important;
+    border: solid 1px #ff5731;
+}
+
+.description-box {
+    min-height: 400px;
+}
+
+.hero {
+    height: 400px;
+}
+
+footer {
+    height: 80px;
+}
+
+.to-upper {
+    text-transform: uppercase;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #6BA4A3;
+    border-color: #6BA4A3
+}
+
+.btn-custom:hover {
+    color: #fff;
+    background-color: #1f3d44;
+    border-color: #1f3d44
+}
+
+.btn-check:focus+.btn-custom, .btn-custom:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: 0 0 0 .25rem rgba(49, 132, 253, .5)
+}
+
+.btn-check:active+.btn-custom, .btn-check:checked+.btn-custom, .btn-custom.active, .btn-custom:active, .show>.btn-custom.dropdown-toggle {
+    color: #fff;
+    background-color: #0a58ca;
+    border-color: #0a53be
+}
+
+.btn-check:active+.btn-custom:focus, .btn-check:checked+.btn-custom:focus, .btn-custom.active:focus, .btn-custom:active:focus, .show>.btn-custom.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .25rem rgba(49, 132, 253, .5)
+}
+
+.btn-custom.disabled, .btn-custom:disabled {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd
+}
+
+.bg-grey {
+    background-color: #d8d8d8;
+}
+
+.purple {
+    background-color: #0A1326;
+    color: rgb(172, 172, 172) !important;
+}
+
+.light-grey {
+    color: rgb(197, 197, 197) !important;
+}
+
+.purple-dark {
+    background-color: #3D0A11;
+}
+
+.white {
+    color: white !important;
+}
+
+.film-icon {
+    max-height: 30px;
+    width: auto;
+}
+
+.orange {
+    color: #ff5e39;
+}
+
+.dark-grey {
+    color: rgb(120, 121, 121);
+}
+
+.green {
+    color: green;
+}
+
+/* RAFA */
+
+.card-img-top {
+    height: 200px;
+}
+
+.rounded {
+    border-radius: 30px;
+}
+
+.recipe-img {
+    max-width: 100%;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.border-right {
+    border-right: 1px solid rgb(223, 223, 223);
 }
