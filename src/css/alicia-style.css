@@ -98,8 +98,6 @@ footer {
     height: 80px;
 }
 
-
-
 .to-upper {
     text-transform: uppercase;
 }
@@ -152,7 +150,6 @@ footer {
     color: rgb(197, 197, 197) !important;
 }
 
-
 .purple-dark {
     background-color: #3D0A11;
 }
@@ -170,16 +167,13 @@ footer {
     color: #ff5e39;
 }
 
-
 .dark-grey {
-    color:rgb(120, 121, 121);
+    color: rgb(120, 121, 121);
 }
 
 .green {
     color: green;
 }
-
-
 
 /* RAFA */
 
@@ -191,16 +185,18 @@ footer {
     border-radius: 30px;
 }
 
-
-
 .recipe-img {
     max-width: 100%;
 }
 
 div.sticky {
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
+    /* Safari */
     position: sticky;
     top: 0;
     background-color: white;
-  }
+}
 
+.border-right {
+    border-right: 1px solid rgb(223, 223, 223);
+}
